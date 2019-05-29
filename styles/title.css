@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  font-family: 'Varela Round' sans-serif;
+  text-align: center;
+}
+
+h1 {
+ /* margin-top: 5%;*/
+  font-size: 3rem;
+  display: inline-block;
+}
+h1 div {
+  position: relative;
+  float: left;
+}
+h1 div:first-child {
+  color: #3498db;
+  margin-right: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.delay-1 {
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+footer {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* tableau*/
+.theadColor{
+   background-color: #87CEEB;
+}
+
+.theadColorAdmin{
+     background-color: #c9302c;
+}
+.colonne-centree
+{
+float: none;
+margin: 0 auto;
+}
+
+/*Vous n'avez pas encore fait de demande d'accès pour l'instant*/
+
+h3 {
+   /* position: absolute;*/
+    left: 10%;
+    right: 10%;
+    top: 60px;
+    bottom: 60px;
+    background: linear-gradient(to right, rgba($background, 0), $foreground 10%, $foreground 90%, rgba($background, 0));
+    text-align: center;
+    color: $text-color;
+    font-family: 'Lato';
+    font-weight: 300;
+   /* font-size: 3rem;*/
+ line-height: calc(30vh - 10px);
+    letter-spacing: .2rem;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 12%;
+        right: 12%;
+        bottom: 0;
+        border-radius: 40%;
+        z-index: -1;
+        box-shadow: 0 0 100px 0 rgba(#000, .8);
+    }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+}

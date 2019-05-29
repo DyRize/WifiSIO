@@ -1,0 +1,70 @@
+
+/* tableau*/
+table {
+    width: 50%;
+}
+
+thead, tbody, tr, td, th {
+    display: block;
+}
+
+thead th {
+    height: 30px;
+}
+
+tbody {
+    overflow-y: auto;
+    height: 150px;
+}
+
+tbody td, thead th {
+    float: left;
+    width: 20%;
+}
+
+tr:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    visibility: hidden;
+}
+
+
+/* titke*/
+html, body {
+  height: 100%;
+  font-family: 'Varela Round' sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 5%;
+  font-size: 3rem;
+  display: inline-block;
+}
+h1 div {
+  position: relative;
+  float: left;
+}
+h1 div:first-child {
+  color: #3498db;
+  margin-right: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.delay-1 {
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+footer {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+}
